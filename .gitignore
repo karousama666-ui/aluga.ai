@@ -1,0 +1,11 @@
+# Ocultar ficheiros de ambiente com chaves de API
+.env
+
+# Ocultar o banco de dados SQLite local
+*.db
+*.sqlite3
+
+# Ocultar pastas temporárias do Python e do Playwright
+__pycache__/
+*.pyc
+.pytest_cache/
